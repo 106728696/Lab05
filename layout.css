@@ -1,0 +1,144 @@
+/*
+   Author: Jia Yu Tan
+   Date: 19 September 2026
+   Description: Lab 05 Layout CSS
+*/
+
+/* Make the aside visible when hovered */
+
+aside:hover {
+    display: block;
+}
+
+
+/* Display navigation menu items on one line */
+
+.menu {
+    display: inline-block;
+}
+
+
+/* Aside styling */
+
+aside {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-image: url("images/fade.jpg");
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+/* Header styling */
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+/* Footer styling */
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+
+/* Float lists section left */
+
+#lists {
+    float: left;
+}
+
+
+/* Centre table */
+
+table {
+    margin: auto;
+}
+
+
+/* Float tables section right */
+
+#tables {
+    float: right;
+}
+
+
+/* Hyperlinks section */
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+
+/* Images section */
+
+#images {
+    float: right;
+}
+
+
+/* Figure border */
+
+figure {
+    border: 2px solid #ccc;
+}
+
+
+/* Two-column sections */
+
+#lists,
+#tables,
+#hyperlinks,
+#images {
+    width: 45%;
+    text-align: center;
+}
+
+
+/* Keep lists left aligned */
+
+ol,
+ul,
+dl {
+    text-align: left;
+}
+
+
+/* Minimum article width */
+
+article {
+    min-width: 30em;
+}
+
+
+/* Footer paragraphs */
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+
+footer p:first-child {
+    float: left;
+}
+
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
